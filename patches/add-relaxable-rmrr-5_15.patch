@@ -18,7 +18,7 @@
                 } else {
                         pr_notice("Unknown option - '%s'\n", str);
                 }
-@@ -2824,7 +2828,7 @@
+@@ -2855,7 +2859,7 @@
                 return false;
 
         pdev = to_pci_dev(dev);
