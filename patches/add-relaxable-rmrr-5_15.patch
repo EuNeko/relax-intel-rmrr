@@ -8,7 +8,7 @@
 
  #define IDENTMAP_GFX           2
  #define IDENTMAP_AZALIA                4
-@@ -442,6 +443,9 @@
+@@ -417,6 +418,9 @@
                 } else if (!strncmp(str, "tboot_noforce", 13)) {
                         pr_info("Intel-IOMMU: not forcing on after tboot. This could expose security risk for tboot\n");
                         intel_iommu_tboot_noforce = 1;
